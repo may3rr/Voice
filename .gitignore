@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+out/
+build/
+release/
+*.asar
+
+# Logs and caches
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
+.tsbuildinfo
+.bun
+
+# Test and coverage
+coverage/
+.nyc_output
+
+# Legacy docs
+TEST-GUIDE.md
+
+# Test recordings
+test-recordings/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Python artifacts (from prior notebooks/scripts)
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Lock files (Bun lockfile is tracked, npm/yarn are not)
+package-lock.json
+yarn.lock
+# Note: bun.lock is tracked for reproducible builds
+
+ASR-eg/
